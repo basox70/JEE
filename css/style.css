@@ -1,0 +1,78 @@
+html {
+	height: 100%;
+}
+body {
+  margin-top: 70px;
+  overflow-x: hidden;
+  font-family: 'Dosis', sans-serif;
+  height:100%;
+  background-image: url('../img/bg.jpg');
+  background-size: 100% auto;
+  background-attachment: fixed;
+  font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+header {
+	min-height: 100%;
+}
+
+.tab-content {
+	border : 1px #ddd solid;
+	padding: 30px 15px;
+	border-top-width: 0px;
+	background-color: #fff;
+
+}
+
+.nav-tabs li {
+	background-color: #eee;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.nav-tabs a {
+	color: black;
+	font-weight: 700;
+}
+
+.nav-tabs li.active  {
+	background-color: #fff;
+}
+.navbar {
+	background-color: rgba(255,255,255,1);
+}
+
+a.navbar-brand {
+	font-weight: 700;
+	color: black;
+}
+
+footer {
+	background-color: #222;
+	color: white;
+	padding: 20px;
+}
+
+footer .left {
+	text-align: left;
+}
+
+footer .middle {
+	text-align: center;
+}
+
+footer .right {
+	text-align: right;
+}
+
+th, table {
+	text-align: center;
+}
+
+.bg-white {
+	background-color: white;
+}
